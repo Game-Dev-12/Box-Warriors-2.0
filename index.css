@@ -1,0 +1,36 @@
+
+
+* {
+    box-sizing: border-box;
+   
+  }
+
+  h1 {
+    font-family: Helvetica, Arial;
+    text-align: center;
+  }
+  .arrow-key-container {
+    display: inline-block;
+    text-align: center;
+  }
+  .arrow-key {
+    align-items: center;
+    background:transparent;
+    border-radius: 6px;
+    /*box-shadow: -1px 1px 0 #999, -2px 2px 0 #999, -3px 3px 0 #999, -4px 4px 0 #999;*/
+    color: rgba(255, 255, 255, 0.637);
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid white;
+    height: 75px;
+    justify-content: center;
+    margin: 5px;
+    width: 75px;
+  }
+  .all-keys-container{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 44px;
+  }
+  
