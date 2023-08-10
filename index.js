@@ -89,7 +89,7 @@ class Fighter {
         
         //attackRect
         if(this.isAttacking) {
-            c.fillStyle = 'green'
+            c.fillStyle = 'white'
             c.fillRect(
             this.attackBox.position.x, 
             this.attackBox.position.y, 
